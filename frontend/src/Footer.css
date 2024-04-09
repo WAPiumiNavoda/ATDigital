@@ -1,0 +1,119 @@
+.footer-container {
+  background-color: 
+  #6B3CC9;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footer-left {
+  width: 40%;
+  margin-left: 50px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.webpage-name {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.social-icons a:hover {
+  color: #f4a261;
+}
+
+.footer-right {
+    width: 50%;
+    display: flex;
+    margin-right: -50px;
+    border-left: 2px solid #fff;
+    padding-left: 50px;
+  }
+
+.company,
+.get-help {
+  width: 50%;
+}
+
+.topic-heading {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.topic-list {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.topic-list li {
+  list-style: disc;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.topic-list li:hover {
+  color: #f4a261;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .header-container {
+    padding: 10px; 
+  }
+
+  .tab {
+    font-size: 14px; 
+    padding: 8px 12px; 
+  }
+
+  .footer-container {
+    padding: 20px; 
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 30px; 
+  }
+
+  .tab {
+    font-size: 12px; 
+    padding: 5px 8px; 
+  }
+}
